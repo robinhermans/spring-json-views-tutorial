@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${spring_boot_version}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'spring-json-views-tutorial'
+    version =  '1.0.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:${spring_boot_version}")
+    compile("org.springframework.boot:spring-boot-starter-jetty:${spring_boot_version}")
+    compile("org.springframework.boot:spring-boot-starter-actuator:${spring_boot_version}")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test:${spring_boot_version}")
+    testCompile("junit:junit:${junit_version}")
+    testCompile("org.mockito:mockito-core:${mockito_version}")
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.13'
+}
