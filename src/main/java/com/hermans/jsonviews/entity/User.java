@@ -1,7 +1,7 @@
-package com.hermans.jsonview.entity;
+package com.hermans.jsonviews.entity;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hermans.jsonview.jackson.UserViews;
+import com.hermans.jsonviews.jackson.UserViews;
 
 /**
  * User entity

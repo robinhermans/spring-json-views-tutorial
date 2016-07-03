@@ -1,4 +1,4 @@
-package com.hermans.jsonview;
+package com.hermans.jsonviews;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +11,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Robin Hermans (info@hermans.net)
  */
 @SpringBootApplication
-public class JsonViewSampleApplication {
+public class JsonViewsSampleApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(JsonViewSampleApplication.class, args);
+    SpringApplication.run(JsonViewsSampleApplication.class, args);
   }
 
 }

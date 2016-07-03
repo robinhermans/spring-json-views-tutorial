@@ -1,4 +1,4 @@
-package com.hermans.jsonview.jackson;
+package com.hermans.jsonviews.jackson;
 
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

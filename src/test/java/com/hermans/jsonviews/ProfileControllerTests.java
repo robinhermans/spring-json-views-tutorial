@@ -1,10 +1,10 @@
-package com.hermans.jsonview;
+package com.hermans.jsonviews;
 
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hermans.jsonview.controller.ProfileController;
-import com.hermans.jsonview.entity.User;
-import com.hermans.jsonview.jackson.UserViews;
+import com.hermans.jsonviews.controller.ProfileController;
+import com.hermans.jsonviews.entity.User;
+import com.hermans.jsonviews.jackson.UserViews;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

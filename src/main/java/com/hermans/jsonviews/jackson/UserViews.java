@@ -1,4 +1,4 @@
-package com.hermans.jsonview.jackson;
+package com.hermans.jsonviews.jackson;
 
 /**
  * JSON view definitions

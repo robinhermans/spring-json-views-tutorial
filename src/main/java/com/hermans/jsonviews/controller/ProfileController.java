@@ -1,8 +1,8 @@
-package com.hermans.jsonview.controller;
+package com.hermans.jsonviews.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hermans.jsonview.entity.User;
-import com.hermans.jsonview.jackson.UserViews;
+import com.hermans.jsonviews.entity.User;
+import com.hermans.jsonviews.jackson.UserViews;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
