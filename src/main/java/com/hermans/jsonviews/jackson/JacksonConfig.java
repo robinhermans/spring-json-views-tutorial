@@ -12,7 +12,7 @@ import javax.annotation.PostConstruct;
  *
  * Maxxton Group 2016
  *
- * @author Robin Hermans (info@hermans.net)
+ * @author Robin Hermans (info@robinhermans.net)
  */
 @Configuration
 public class JacksonConfig {

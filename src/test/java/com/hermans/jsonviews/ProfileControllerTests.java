@@ -24,7 +24,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  *
  * Maxxton Group 2016
  *
- * @author Robin Hermans (info@hermans.net)
+ * @author Robin Hermans (info@robinhermans.net)
  */
 @RunWith(MockitoJUnitRunner.class)
 public class ProfileControllerTests {

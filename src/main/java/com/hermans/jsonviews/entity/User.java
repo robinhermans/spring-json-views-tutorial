@@ -8,7 +8,7 @@ import com.hermans.jsonviews.jackson.UserViews;
  *
  * Maxxton Group 2016
  *
- * @author Robin Hermans (info@hermans.net)
+ * @author Robin Hermans (info@robinhermans.net)
  */
 public class User {
 

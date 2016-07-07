@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * Maxxton Group 2016
  *
- * @author Robin Hermans (info@hermans.net)
+ * @author Robin Hermans (info@robinhermans.net)
  */
 @SpringBootApplication
 public class JsonViewsSampleApplication {
